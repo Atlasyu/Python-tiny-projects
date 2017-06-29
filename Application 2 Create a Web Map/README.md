@@ -3,4 +3,4 @@ Documentation: https://folium.readthedocs.io/en/latest/
 
 Github: https://github.com/python-visualization/folium
 
-Method: Folium; 
+Methods: Folium; Folium.FeatureGroup; FeatureGroup.add_child ;Pandas
