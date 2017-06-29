@@ -2,6 +2,8 @@
 
 ### 10 tiny projects for python beginners
 
-Application2: Create a Web map using Folium
+Application 2: Create a Web map using Folium
 
-Application3: 
+Application 3: Create a Web Blocker
+
+Application 4
