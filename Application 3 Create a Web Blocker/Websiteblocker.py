@@ -4,7 +4,7 @@
 
 hosts_temp = 'hosts'
 hosts_path = 'C:\Windows\System32\drivers\etc'
-# hosts_path = 'C:\n Windows\System32\drivers\etc' \n a new road
+# hosts_path = 'C:\n Windows\System32\drivers\etc' \n a new row, sometimes it doesn't work
 # hosts_path = r'C:\n Windows\System32\drivers\etc'  add a r - road
 
 redirect = '127.0.0.1'
@@ -15,7 +15,7 @@ from datetime import datetime as dt
 
 while True:
     if dt(dt.now().year, dt.now().month, dt.now().day, 8) < dt.now() < dt(dt.now().year, dt.now().month, dt.now().day, 16):
-        print ('Working hours...')
+        #print ('Working hours...')
         with open(hosts_path,'r+') as file:
             content = file.read()
             for website in website_list:
@@ -26,6 +26,7 @@ while True:
     else:
         with open(hosts_path,'r+') as file:
             content = file.readlines()
+            # Circle back to the top, when truncate, it will take all the bottom part out
             file.seek(0)
             for line in content:
                 if not any(website in line for website in website_list):
