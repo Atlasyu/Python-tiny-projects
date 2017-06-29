@@ -8,3 +8,4 @@ Methods: datetime; open file; file.readlines; file.truncate
 
 Pythonw.exe runs programs in the background.
 
+Task Scheduler: schedule a program to automatically run at a certain time.
