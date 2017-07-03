@@ -8,4 +8,4 @@ Methods: Flask, Heroku
 
 1. Cannot bypass HTML and CSS. 
 2. Create virtual envirment - much cleaner
-3. Use git to push changes
+3. Use git to make changes
