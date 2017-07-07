@@ -4,6 +4,6 @@ Create a database and a GUI to access the database. Convert it to a standalone a
 
 Methods: sqlite3, Tkinter, global varible, cx_Freeze, pyinstaller
 
-1.Couldn't find a solution to convert the app.
-2.CX_Freeze: ImportError: DLL load failed: The specified module could not be found.
-3.Pyinstaller doesn't support python 3.6. Dannnnnn.
+1. Couldn't find a solution to convert the app.
+2. CX_Freeze: ImportError: DLL load failed: The specified module could not be found.
+3. Pyinstaller doesn't support python 3.6. Dannnnnn.
