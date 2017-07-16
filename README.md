@@ -11,3 +11,5 @@ Application 3: Create a Web Blocker
 Application 4: Build a Simple Website
 
 Application 5: Build a Desktop Database App
+
+Application 6: Building a Webcam Motion Detector
